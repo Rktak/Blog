@@ -1,0 +1,144 @@
+
+
+#main-navigation{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+#main-navigation a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+}
+
+
+
+#main-navigation a:hover,
+#main-navigation a:active{
+    color: pink;
+}
+
+#main-navigation h1 a:hover,
+#main-navigation h1 a:active{
+    color:pink;
+}
+
+#welcome{
+    background: linear-gradient(to right top,#6305dd,#390281);
+    padding:6rem 12%;
+}
+
+#welcome header{
+    display: flex;
+    align-items:flex-start;
+    margin:3rem auto;
+}
+
+#welcome img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    object-position: top;
+    border:5px solid white;
+    background-color: rgb(255, 214, 161);
+    transform:rotateZ(-5deg);
+    box-shadow: 0px 8px rgb(0, 0, 0,.25);
+    
+}
+
+#welcome h3{
+    font-size: 3.5rem;
+    margin:0 0 0 2rem;
+    color: rgb(255, 242, 242);
+    width: 10rem;
+
+}
+
+#welcome p{
+    color:white;
+    font-size:1.5rem;
+}
+
+#latest-posts{
+    background-color: white;
+    border-radius: 12px;
+    width: 70rem;
+    
+    margin:-6rem auto 2rem auto;
+    box-shadow:1px 1px 12px rgba(0, 0, 0,.4);
+}
+
+#latest-posts h2{
+    text-align: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    
+}
+
+#latest-posts ul{
+    background-color: white;
+    text-align: center;
+    list-style: none;
+    flex:1;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+#latest-posts li{
+    flex: 1;
+}
+
+
+#about{
+    text-align:center;
+    padding: 3rem;
+    background-color: rgb(245, 223, 127);
+    margin-top: 5rem;
+}
+
+#about h2{
+    font-size: 3rem;
+}
+
+#about p{
+    font-size: 1.5rem;
+    color: rgb(65, 59, 59);
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    
+}
+
+.posts a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease;
+    padding: 1.5rem;
+}
+
+.posts a:hover,
+.posts a:active{
+    background-color: rgb(111, 0, 255);
+    border-radius: 10px;
+    width: 20rem;
+    height: 12rem;
+}
+
+.posts img{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
